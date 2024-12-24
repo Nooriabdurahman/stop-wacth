@@ -1,0 +1,48 @@
+h1#myh1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div#display {
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div#controls {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+button {
+    padding: 8px 17px;
+    font-size: 22px;
+}
+
+button#startbtn {
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: green;
+    color: white;
+    border: 1;
+}
+
+button#stopbtn {
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: red;
+    color: white;
+    border: 1;
+}
+
+button#resettbtn{
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1;
+}
